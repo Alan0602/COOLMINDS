@@ -423,3 +423,35 @@ Sum = 99.9999999999986
 sum is not 100
 ```
 
+## 13.TimeDateInfo
+#### Question 13.
+ Write a program that will show different time and date information based on what "code" you send it. The codes are: 
+0 - number of milliseconds since January 1, 1970 
+1 - number of seconds since January 1, 1970 
+2 - number of days since January 1, 1970 
+3 - current date and time 
+ (use Calendar class, switch) 
+
+#### VIEW CODE : [TimeDateInfo](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/13.TimeDateInfo.java)
+
+#### OUTPUT : 
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>javac TimeDateInfo.java
+
+C:\Users\hp\OneDrive\Documents\JavaS>java TimeDateInfo      
+Enter the code from 0 to 3: 0
+Number of Milliseconds from 1970 Jan 1: 1718384187265
+
+C:\Users\hp\OneDrive\Documents\JavaS>java TimeDateInfo
+Enter the code from 0 to 3: 1
+Number of Seconds from 1970 Jan 1: 1718384196
+
+C:\Users\hp\OneDrive\Documents\JavaS>java TimeDateInfo       
+Enter the code from 0 to 3: 2
+Number of Days from 1970 Jan 1: 19888
+
+C:\Users\hp\OneDrive\Documents\JavaS>java TimeDateInfo
+Enter the code from 0 to 3: 3
+Current Date and Time: Fri Jun 14 22:29:20 IST 2024
+```
+
