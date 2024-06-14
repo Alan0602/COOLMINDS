@@ -1,4 +1,4 @@
-## 1.SQUAREOFASTERISKS
+## 1.SquareOfAsterisks
 #### Question: 1. 
   Write a program that reads a value from the input (system) and prints a square of value x value asterisks (*) in the output window as long as the value is between 1 and 5.
 
