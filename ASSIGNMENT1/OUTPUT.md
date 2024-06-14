@@ -49,3 +49,66 @@ Enter the second number (in words): twenty two
 Text not recognized: thirty-five
 
 ```
+
+
+## 3.ReadTextFile/SortNames
+#### Question 3.
+Load an ArrayList with Strings from a text file of names. Show the names sorted in order of first name and then by last name. Use another class ReadTextFile to read the names from a text file with names of all Coolminds employees. Use the Collections class for sorting. Do not create a second list with the names in a different order. Do not modify the ArrayList or its contents except by using the Collections class. Your class will be called SortNames. 
+- Purpose: To learn how to work with an ArrayList, how to implement an interface, and how to use I/O 
+
+#### VIEW CODE :
+#### [ReadTextFile](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/3ReadTextFile.java)  
+#### [SortNames](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/3.1SortNames.java)
+
+#### Explanation
+
+##### ReadTextFile Class (1. Reads Text File):
+
+- File Path: Stores the location of the text file to read (modify the path if needed).
+- readNames Method: This method reads names from the file.
+- ArrayList: Creates an ArrayList to store the names.
+- Try-Catch Block: Handles potential errors while reading.
+- BufferedReader: Opens the file for reading line by line.
+- Read Lines: Loops through each line in the file.
+- Add Names: Adds each line (name) to the ArrayList.
+- Close Reader: Closes the file after reading.
+- Return Names: Returns the ArrayList containing all names.
+
+##### SortNames Class (2. Sorts Names):
+
+- Main Method: This method runs the program.
+- Read Names: Calls the readNames() method to get names.
+- Sort Names: Uses Collections.sort() to sort the ArrayList.
+- Custom Comparator: Sorts names by first name, then last name.
+- Sorting Logic (within Comparator):
+- Compares first names first.
+- If first names are equal, compares last names.
+- Sorts the ArrayList based on the comparison results.
+- Printing Sorted Names:
+- Loops through the sorted ArrayList of names.
+- Prints each name (line) to the console.
+
+
+#### InputFile
+
+```txt
+Xavier Ingram
+Yvonne James
+Laura King
+Bob Brown
+```
+
+#### OUTPUT
+
+```java
+C:\Users\hp\OneDrive\Documents\JavaS>javac ReadTextFile.java SortNames.java
+
+C:\Users\hp\OneDrive\Documents\JavaS>java SortNames
+
+Bob Brown
+Laura King
+Xavier Ingram
+Yvonne James
+```
+
+
