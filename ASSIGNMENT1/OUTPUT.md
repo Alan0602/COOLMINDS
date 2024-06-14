@@ -313,3 +313,96 @@ C:\Users\hp\OneDrive\Documents\JavaS>java TimesTable.java
 8 0 8 16 24 32 40 48 56 64 72
 9 0 9 18 27 36 45 54 63 72 81
 ```
+
+## 11.SquareGrains
+#### Question 11.
+There are 64 squares on a chessboard. If I put One grain on the first square of a chess board. Two grains on the next. Four on the third, and so on. Write a program that shows how many grains were on each square and the total number of grains. 
+ ```
+ square 1: 1 grain 
+ square 2: 2 grains 
+ square 3: 4 grains 
+ ...... 
+ ..... 
+ square64: xxx grains
+```
+ (boundaries of int & accuracy) 
+
+ #### VIEW CODE :  [SquareGrains](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/11.SquareGrains.java)
+
+ #### Explain:
+  - By using `BigInteger` intialize grain to 1 and total to zero
+  - By loop print the square and grains
+  - Add `total` by adding `graains`
+  - Update `grains` by multiply grains with `BigInteger` 2
+  - Print total
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>javac SquareGrains.java
+C:\Users\hp\OneDrive\Documents\JavaS>java SquareGrains      
+Square 1 : 1 grains
+Square 2 : 2 grains
+Square 3 : 4 grains
+Square 4 : 8 grains
+Square 5 : 16 grains
+Square 6 : 32 grains
+Square 7 : 64 grains
+Square 8 : 128 grains
+Square 9 : 256 grains
+Square 10 : 512 grains
+Square 11 : 1024 grains
+Square 12 : 2048 grains
+Square 13 : 4096 grains
+Square 14 : 8192 grains
+Square 15 : 16384 grains
+Square 16 : 32768 grains
+Square 17 : 65536 grains
+Square 18 : 131072 grains
+Square 19 : 262144 grains
+Square 20 : 524288 grains
+Square 21 : 1048576 grains
+Square 22 : 2097152 grains
+Square 23 : 4194304 grains
+Square 24 : 8388608 grains
+Square 25 : 16777216 grains
+Square 26 : 33554432 grains
+Square 27 : 67108864 grains
+Square 28 : 134217728 grains
+Square 29 : 268435456 grains
+Square 30 : 536870912 grains
+Square 31 : 1073741824 grains
+Square 32 : 2147483648 grains
+Square 33 : 4294967296 grains
+Square 34 : 8589934592 grains
+Square 35 : 17179869184 grains
+Square 36 : 34359738368 grains
+Square 37 : 68719476736 grains
+Square 38 : 137438953472 grains
+Square 39 : 274877906944 grains
+Square 40 : 549755813888 grains
+Square 41 : 1099511627776 grains
+Square 42 : 2199023255552 grains
+Square 43 : 4398046511104 grains
+Square 44 : 8796093022208 grains
+Square 45 : 17592186044416 grains
+Square 46 : 35184372088832 grains
+Square 47 : 70368744177664 grains
+Square 48 : 140737488355328 grains
+Square 49 : 281474976710656 grains
+Square 50 : 562949953421312 grains
+Square 51 : 1125899906842624 grains
+Square 52 : 2251799813685248 grains
+Square 53 : 4503599627370496 grains
+Square 54 : 9007199254740992 grains
+Square 55 : 18014398509481984 grains
+Square 56 : 36028797018963968 grains
+Square 57 : 72057594037927936 grains
+Square 58 : 144115188075855872 grains
+Square 59 : 288230376151711744 grains
+Square 60 : 576460752303423488 grains
+Square 61 : 1152921504606846976 grains
+Square 62 : 2305843009213693952 grains
+Square 63 : 4611686018427387904 grains
+Square 64 : 9223372036854775808 grains
+Total grains: 18446744073709551615
+```
