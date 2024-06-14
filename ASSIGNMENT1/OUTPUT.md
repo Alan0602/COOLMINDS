@@ -163,3 +163,40 @@ C:\Users\hp\OneDrive\Documents\JavaS>java Asterisks
 Enter a value between 1 and 5: 6
 Value must be between 1 and 5.
 ```
+
+## 6.NameMatrix
+#### Question 6.
+Write a program that will read in a name from the command line and write it out 100 times. (10 columns x 10 rows). Columns seperated by a 2 spaces.(concatenate strings & loop)
+
+#### VIEW CODE : [NameMatrix](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/6.NameMatrix.java)
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>javac NameMatrix.java
+
+C:\Users\hp\OneDrive\Documents\JavaS>java NameMatrix Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan  Alan
+
+C:\Users\hp\OneDrive\Documents\JavaS>java NameMatrix Alan K
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
+
+C:\Users\hp\OneDrive\Documents\JavaS>java NameMatrix       
+Please give any name in command line
