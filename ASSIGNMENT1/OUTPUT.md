@@ -200,3 +200,33 @@ AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK  AlanK
 
 C:\Users\hp\OneDrive\Documents\JavaS>java NameMatrix       
 Please give any name in command line
+```
+
+## 8.OddOrEven
+#### Question 8. 
+Write a program that will read in a number from the command line and tell me if it is even or odd. (if..., modulus)
+
+#### VIEW CODE :  [OddOrEven](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/7.OddOrEven.java)
+
+#### OUTPUT:
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>javac OddOrEven.java
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven 13   
+13 is odd
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven 12
+12 is even
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven   
+Please give a number in command line
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven alan
+Invalid input. Please enter a valid integer in command line.
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven 10,5
+Invalid input. Please enter a valid integer in command line.
+
+C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven 10.5
+Invalid input. Please enter a valid integer in command line.
+```
