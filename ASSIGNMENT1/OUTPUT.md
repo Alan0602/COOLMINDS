@@ -278,3 +278,38 @@ Enter a number from 20 to 99:
 12
 Number is Out of Range, Value must between 20 and 99.
 ```
+
+## 10.TimesTable
+#### Question 10.
+ Write a program that (algorithmically) shows a times table.(convert integers to strings, format text, nested loops) 
+```cmd
+ 0 1 2 3 4 5 6 7 8 9 
+ 0 0 0 0 0 0 0 0 0 0 0 
+ 1 0 1 2 3 4 5 6 7 8 9 
+ 2 0 2 4 6 8 10 12 14 16 18 
+ 3 0 3 6 9 12 15 18 21 24 27 
+ 4 0 4 8 12 16 20 24 28 32 36 
+ 5 0 5 10 15 20 25 30 35 40 45 
+ 6 0 6 12 18 24 30 36 42 48 54 
+ 7 0 7 14 21 28 35 42 49 56 63 
+ 8 0 8 16 24 32 40 48 56 64 72 
+ 9 0 9 18 27 36 45 54 63 72 81 
+ ```
+
+#### VIEW CODE :  [TimesTable](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/10.TimesTable.java)
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>java TimesTable.java
+  0 1 2 3 4 5 6 7 8 9 
+0 0 0 0 0 0 0 0 0 0 0
+1 0 1 2 3 4 5 6 7 8 9
+2 0 2 4 6 8 10 12 14 16 18
+3 0 3 6 9 12 15 18 21 24 27
+4 0 4 8 12 16 20 24 28 32 36
+5 0 5 10 15 20 25 30 35 40 45
+6 0 6 12 18 24 30 36 42 48 54
+7 0 7 14 21 28 35 42 49 56 63
+8 0 8 16 24 32 40 48 56 64 72
+9 0 9 18 27 36 45 54 63 72 81
+```
