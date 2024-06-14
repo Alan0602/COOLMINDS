@@ -113,7 +113,7 @@ Yvonne James
 
 ## 4.Thing/LookUp
 #### Question 4.
-A rental shop rents video DVDs, books, audio CDs, etc. Every thing has a serial number. Write a program called Lookup that takes in a serial number and writes information on a given item to the console. You will need to make an abstract class called Thing and three subclasses: Video, Book and Audio. There will be an abstract method called getDescription() that returns a String. Lookup will contain a static HashMap that contains a dozen things to rent. Make up whatever things you like as long as you use all three types. Give each of your classes relevant attributes and have the getDescription() method return as much information on an item as possible. 
+A rental shop rents video DVDs, books, audio CDs, etc. Every thing has a serial number. Write a program called Lookup that takes in a serial number and writes information on a given item to the console. You will need to make an abstract class called Thing and three subclasses: Video, Book and Audio. There will be an abstract method called getDescription() that returns a String. Lookup will contain a static HashMap that contains a dozen things to rent. Make up whatever things you like as long as you use all three types. Give each of your classes relevant attributes and have the getDescription() method return as much information on an item as possible. Purpose: To learn about polymorphism
 
 #### VIEW CODE:
 #### [Thing](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/4Thing.java)
@@ -145,3 +145,21 @@ Enter the serial number from 1 to 6: 7
 Invalid serial number
 ```
 
+## 5.Astersisks
+#### Question 5.
+Write a program that reads a value from the input (system) and prints a square of value x value asterisks (*) in the output window as long as the value is between 1 and 5. (read from keyboard, I/O classes, loop, exception handling) 
+
+#### VIEW CODE: [Asterisks](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/5Asterisks.java)
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>java Asterisks
+Enter the number from 1 to 5: 4
+* * * *
+* * * *
+* * * *
+* * * *
+C:\Users\hp\OneDrive\Documents\JavaS>java Asterisks
+Enter a value between 1 and 5: 6
+Value must be between 1 and 5.
+```
