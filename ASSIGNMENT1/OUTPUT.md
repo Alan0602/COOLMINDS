@@ -111,4 +111,37 @@ Xavier Ingram
 Yvonne James
 ```
 
+## 4.Thing/LookUp
+#### Question 4.
+A rental shop rents video DVDs, books, audio CDs, etc. Every thing has a serial number. Write a program called Lookup that takes in a serial number and writes information on a given item to the console. You will need to make an abstract class called Thing and three subclasses: Video, Book and Audio. There will be an abstract method called getDescription() that returns a String. Lookup will contain a static HashMap that contains a dozen things to rent. Make up whatever things you like as long as you use all three types. Give each of your classes relevant attributes and have the getDescription() method return as much information on an item as possible. 
+
+#### VIEW CODE:
+#### [Thing](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/4Thing.java)
+#### [LookUp](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/4.1LookUp.java)
+
+### Explaination:
+- **Abstract Class (Thing):** Defines a blueprint for items with serial number and title (abstract).
+- **Concrete Classes (Audio, Video, Books):** Inherit from `Thing`, adding specific details (singer, director, author).
+- **`getDescription()`:** Abstract method (must be implemented in subclasses) to describe the item.
+- **`HashMap (shop)`:** Stores items (key: serial number, value: Thing object).
+- **Pre-populated Items:** Sample videos, books, and audios are added to the shop.
+- **`Scanner`:** Reads user input for the serial number.
+- **User Input:** Prompts user to enter a serial number (1-6).
+- **`get(serialNumber)`:** Retrieves the item from the shop based on the serial number.
+- **Valid Serial Number:** If found, prints the item's description using `getDescription()`.
+- **Invalid Serial Number:** Prints an error message for invalid input.
+
+#### OUTPUT:
+
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>java LookUp      
+Enter the serial number from 1 to 6: 3
+Books: Serial Number: 3
+Title: The Batman
+Author: Matt Reeves
+
+C:\Users\hp\OneDrive\Documents\JavaS>java LookUp
+Enter the serial number from 1 to 6: 7
+Invalid serial number
+```
 
