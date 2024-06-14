@@ -406,3 +406,20 @@ Square 63 : 4611686018427387904 grains
 Square 64 : 9223372036854775808 grains
 Total grains: 18446744073709551615
 ```
+
+## 12.SumOfFloat
+#### Question 12.
+ Write a program that will start with a double called sum set to zero. Add 0.1 to sum 1000 times by using a for loop. Print the sum, and then print a statement of whether or not the sum is equal to 100. 
+(the difference between floating point numbers and integers, precision) 
+
+#### VIEW CODE:  [SumOfFloat](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/12.SumOfFloat.java)
+
+#### OUTPUT
+```java
+C:\Users\hp\OneDrive\Documents\JavaS>javac SumOfFloat.java    
+
+C:\Users\hp\OneDrive\Documents\JavaS>java SumOfFloat
+Sum = 99.9999999999986
+sum is not 100
+```
+
