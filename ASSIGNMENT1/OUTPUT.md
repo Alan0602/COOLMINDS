@@ -252,3 +252,29 @@ Enter the year:
 thuiu
  Please enter a valid integer year.
 ```
+
+## 9.SpellNumber
+#### Question 9.
+Write a program that will read in a number from 20 to 99 and spell out that number. The program must also report any values that are out of range. 33 - "thirty three" (array, invalid input exception handling)
+
+#### VIEW CODE: [SpellNumber](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/9.SpellNumber.java)
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>javac SpellNumber.java
+
+C:\Users\hp\OneDrive\Documents\JavaS>java SpellNumber
+Enter a number from 20 to 99:
+20
+20 - tewnty
+
+C:\Users\hp\OneDrive\Documents\JavaS>java SpellNumber
+Enter a number from 20 to 99:
+94
+94 - ninety four
+
+C:\Users\hp\OneDrive\Documents\JavaS>java SpellNumber
+Enter a number from 20 to 99:
+12
+Number is Out of Range, Value must between 20 and 99.
+```
