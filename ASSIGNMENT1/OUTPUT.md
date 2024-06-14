@@ -230,3 +230,25 @@ Invalid input. Please enter a valid integer in command line.
 C:\Users\hp\OneDrive\Documents\JavaS>java OddOrEven 10.5
 Invalid input. Please enter a valid integer in command line.
 ```
+
+## 8.LeapYear
+#### Question 8.
+Write a program that will read in a year and report if it is a leap year.(logical)
+
+#### VIEW CODE: [LeapYear](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1/8.LeapYear.java)
+
+#### OUTPUT
+```cmd
+C:\Users\hp\OneDrive\Documents\JavaS>java LeapYear
+Enter the year: 
+2000
+2000 is a leap year and it has 366 days
+C:\Users\hp\OneDrive\Documents\JavaS>java LeapYear
+Enter the year:
+1999
+1999 is not a leap year and it has 365 days
+C:\Users\hp\OneDrive\Documents\JavaS>java LeapYear       
+Enter the year: 
+thuiu
+ Please enter a valid integer year.
+```
