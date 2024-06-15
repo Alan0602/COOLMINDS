@@ -5,4 +5,5 @@ Welcome to the Java Assignments Repository! This repository contains a series of
 ## Contents
 
 - ### [Assignment 1](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT1.md)
+- ### [Assignment 2](https://github.com/Alan0602/COOLMINDS/blob/main/ASSIGNMENT2.md)
 
