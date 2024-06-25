@@ -19,7 +19,7 @@ Enter the value between 1 to 5:4
 
 C:\Users\hp\OneDrive\Documents\JavaS>java SquareOfAstriks
 Enter the value between 1 to 5:6
-Wrong value
+Wrong Input , Try to write number from 1 to 5:
 ```
 
 ## 2.NaturalLanguageMultiply
