@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class NaturalLanguage {
+public class NaturalLanguageMultiply {
 
     private static final HashMap<String, Integer> stringToInt = new HashMap<>();
 
