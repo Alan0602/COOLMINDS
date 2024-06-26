@@ -1,57 +1,68 @@
-
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class NaturalLanguageMultiply {
+public class NaturalLanguage {
 
     private static final HashMap<String, Integer> stringToInt = new HashMap<>();
 
-   
     static {
-        String[] ones = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-        String[] teens = { "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
-        String[] tens = { "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
-
-        //Mpping ones to its number
-        for (int i = 0; i < ones.length; i++) {
-            stringToInt.put(ones[i], i);
-        }
-
-        //Mapping teens to its number
-        for (int i = 0; i < teens.length; i++) {
-            stringToInt.put(teens[i], 10 + i);
-        }
-
-        //Mapping tens to its number
-        for (int i = 0; i < tens.length; i++) {
-            stringToInt.put(tens[i], 20 + (10 * i));
-        }
-
-        //Mapping tens and ones to its number
-        for (int i = 0; i < tens.length; i++) {
-            for (int j = 1; j < ones.length; j++) {
-                stringToInt.put(tens[i] + " " + ones[j], 20 + (10 * i) + j);
-            }
-        }
+        // Directly mapping all necessary values to the HashMap
+        stringToInt.put("zero", 0);
+        stringToInt.put("one", 1);
+        stringToInt.put("two", 2);
+        stringToInt.put("three", 3);
+        stringToInt.put("four", 4);
+        stringToInt.put("five", 5);
+        stringToInt.put("six", 6);
+        stringToInt.put("seven", 7);
+        stringToInt.put("eight", 8);
+        stringToInt.put("nine", 9);
+        stringToInt.put("ten", 10);
+        stringToInt.put("eleven", 11);
+        stringToInt.put("twelve", 12);
+        stringToInt.put("thirteen", 13);
+        stringToInt.put("fourteen", 14);
+        stringToInt.put("fifteen", 15);
+        stringToInt.put("sixteen", 16);
+        stringToInt.put("seventeen", 17);
+        stringToInt.put("eighteen", 18);
+        stringToInt.put("nineteen", 19);
+        stringToInt.put("twenty", 20);
+        stringToInt.put("thirty", 30);
+        stringToInt.put("forty", 40);
+        stringToInt.put("fifty", 50);
+        stringToInt.put("sixty", 60);
+        stringToInt.put("seventy", 70);
+        stringToInt.put("eighty", 80);
+        stringToInt.put("ninety", 90);
     }
 
     // Convert string to integer based on the stringToInt
     private static int toInt(String s) throws Exception {
-        if (stringToInt.containsKey(s.toLowerCase())) {
-            return stringToInt.get(s.toLowerCase());
-        } else {
-            throw new Exception("Text is in invalid format" );
+        s = s.toLowerCase();
+        String[] parts = s.split(" ");
+        int total = 0;
+
+        for (String part : parts) {
+            Integer num = stringToInt.get(part);
+            if (num != null) {
+                total += num;
+            } else {
+                throw new Exception("Text is in an invalid format: " + s);
+            }
         }
+
+        return total;
     }
 
     // Main method
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first number (in words): ");
+        System.out.print("Enter the first number in words: ");
         String number1 = scanner.nextLine();
 
-        System.out.print("Enter the second number (in words): ");
+        System.out.print("Enter the second number in words: ");
         String number2 = scanner.nextLine();
 
         try {
